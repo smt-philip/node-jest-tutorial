@@ -1,13 +1,29 @@
-/**
- * importing functions to test
+/*
+ * File: /test/functions.test.js
+ * Version: 0.0.1
+ * Project: spacelibs-js
+ * Description: Test for functions.js
+ * File Created: Friday, 28th July 2022 11:30 am
+ * Author: Philip Mann (philip.mann@siliconmtn.com)
+ * -----
+ * Last Modified: Friday, 29th July 2022 11:30 am
+ * Modified By: Philip Mann (philip.mann@siliconmtn.com)
+ * -----
+ * Copyright 2022, Silicon Mountain Technologies, Inc.
  */
-import sum, { callMyFunction } from '../src/functions.js';
+
+import sum, {
+    callMyFunction
+} from '../src/functions.js';
+
 /**
  * automatically in scope within every test file. 
  * The methods in the Jest object help create mocks and let you control Jest's overall behavior
  * https://jestjs.io/docs/jest-object
  */
-import {jest} from '@jest/globals'
+import {
+    jest
+} from '@jest/globals'
 
 /**
  * test for sum(num1, num2);
